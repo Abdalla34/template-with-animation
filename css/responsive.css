@@ -1,0 +1,91 @@
+@media (max-width: 575px) {
+    .container .navbar {
+        display: none;
+        position: absolute;
+        top: 65px;
+        left: 0;
+        width: 100%;
+        background: var(--main-color);
+        z-index: 5;
+        flex-direction: column;
+    }
+
+    .menu-item-link {
+        padding: 0 30px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        position: relative;
+        overflow: hidden;
+        transition: 0.3s;
+        font-weight: bold;
+    }
+
+    .hedear .navbar li:hover .mega-menu {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .hedear .navbar li:hover .mega-menu .image {
+        display: none;
+    }
+
+    .mega-menu-link {
+        text-align: center;
+    }
+
+    .button {
+        display: block;
+    }
+
+    .d-none {
+        display: block !important;
+    }
+
+    .imges img {
+        display: none;
+    }
+
+    .landing .container .text h1 {
+        text-align: center;
+    }
+
+    .landing .container .text p {
+        text-align: center;
+        line-height: 1.4;
+    }
+    .our-skill .cont img{
+        display: none;
+    }
+    .work-step .content img{
+        display: none;
+    }
+    .contevent img {
+        max-width: 300px;
+        margin: 0px auto 15px;
+    }
+    .contevent .info-event .time .unit span:first-child {
+        font-size: 20px;
+    }
+    .contevent .subscribe form {
+        padding: 20px;
+        background-color: #f6f5f5;
+        width: 100%;
+        margin: auto;
+        border-radius: 70px;
+        display: flex;
+        gap: 15px;
+    }
+    .contevent .subscribe form input[type="email"] {
+        padding: 15px 10px;
+    }
+    .contevent .subscribe form input[type="submit"] {
+        padding: 15px;
+    }
+    .discount {
+        flex-direction: column-reverse;
+    }
+}
